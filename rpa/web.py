@@ -29,7 +29,7 @@ def likeable():
             pyautogui.click()
             print(f'Liked {counter}, {reload_page} ')
             sleep(1)
-            if reload_page == counter:
+            if reload_page == counter/2:
                 pyautogui.moveTo(int(os.getenv('reload_x')),int(os.getenv('reload_y')))
                 pyautogui.click()
                 timer()
