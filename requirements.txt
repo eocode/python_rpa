@@ -1,1 +1,2 @@
-pyautogui
+pyautogui==0.9.52
+python-dotenv==0.15.0
