@@ -3,11 +3,6 @@ from rpa import web
 
 if __name__ == "__main__":
     web.open_url('like_url', True)
-    counter = 0
-    reposition = 60
-    while True:
-        web.likeable()
-        print("Likeable")
-        web.open_url('passport_url', False)
-        web.timer()
-        web.passport()
+    while (True):
+        web.view(8)
+        web.next()
