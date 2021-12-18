@@ -25,7 +25,7 @@ def view(steps):
 
 def next():
     pyautogui.press('right')
-    sleep(5)
+    sleep(10)
 
 
 def passport():
