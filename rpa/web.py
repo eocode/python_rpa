@@ -20,12 +20,12 @@ def open_url(site, new):
 def view(steps):
     for a in range(steps):
         pyautogui.press('down')
-        sleep(1)
+        sleep(4)
 
 
 def next():
     pyautogui.press('right')
-    sleep(3)
+    sleep(5)
 
 
 def passport():
